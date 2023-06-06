@@ -1,8 +1,8 @@
 ﻿using System;
-namespace workout_api.Interfaces
+namespace workout_api.Dtos
 {
-	public interface IExercise
-	{
+    public class ExerciseDTO
+    {
         public string? Name { get; set; }
         public string? Type { get; set; }
         public string? Muscle { get; set; }
